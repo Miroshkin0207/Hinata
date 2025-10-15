@@ -1,0 +1,43 @@
+body {
+    background-color: #1f1f1f
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1
+}
+
+@font-face {
+    font-family: "Neucha";
+    src: url("neucha.ttf")
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: Neucha;
+    font-size: 55px
+}
+
+.videoContainer {
+    z-index: 5;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-55%);
+    top: 250px;
+    width: 500px
+}
+
+@media (min-width: 1000px) {
+    video {
+        width: 600px;
+        height: 300px
+    }
+}
+
+@media (max-width: 999px) {
+
+}
