@@ -20,7 +20,7 @@ h1 {
     font-family: Neucha
 }
 
-.videoContainer {
+video {
     z-index: 5;
     position: absolute;
     left: 50%;
@@ -38,10 +38,7 @@ h1 {
     
     video {
         width: 600px;
-        height: 300px
-    }
-
-    .videoContainer {
+        height: 300px;
         top: 250px
     }
 }
@@ -55,17 +52,15 @@ h1 {
 h1 {
     font-size: 20px
 }
-    
-.videoContainer {
-        top: 50px;
-        width: 100%
+
+video {
+    width: 100%;
+    height: 175px;
+    top: 50px;
+    width: 100%
+}
 }
 
-    video {
-        width: 100%;
-        height: 175px
-    }
-}
 
 
 
