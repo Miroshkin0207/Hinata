@@ -4,7 +4,6 @@ body {
 
 #bg {
     position: absolute;
-    top: 0;
     left: 0;
     width: 100%;
     z-index: -1
@@ -29,6 +28,10 @@ h1 {
 }
 
 @media (min-width: 1000px) {
+    #bg {
+        top: 0
+    }
+
     h1 {
         font-size: 55px
     }
@@ -44,17 +47,24 @@ h1 {
 }
 
 @media (max-width: 999px) {
+#bg {
+    bottom: 25px;
+    left: 0
+}
+    
 h1 {
     font-size: 20px
 }
+    
 .videoContainer {
-        top: 75px
-    }
+        top: 50px
+}
 
     video {
-        width: 150px;
-        height: 95px
+        width: 90%;
+        height: 175px
     }
 }
+
 
 
