@@ -26,9 +26,7 @@ h1 {
     z-index: 5;
     position: absolute;
     left: 50%;
-    transform: translateX(-55%);
-    top: 250px;
-    width: 500px
+    transform: translateX(-55%)
 }
 
 @media (min-width: 1000px) {
@@ -36,8 +34,19 @@ h1 {
         width: 600px;
         height: 300px
     }
+
+    .videoContainer {
+        top: 250px
+    }
 }
 
 @media (max-width: 999px) {
+.videoContainer {
+        top: 75px
+    }
 
+    video {
+        width: 100px;
+        height: 55px
+    }
 }
